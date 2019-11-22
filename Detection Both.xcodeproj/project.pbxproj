@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C289A75C2387244E00ACD3D0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C289A75B2387244E00ACD3D0 /* GameViewController.swift */; };
 		C2FF87972386CB8C004F05D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FF87962386CB8C004F05D0 /* AppDelegate.swift */; };
 		C2FF87992386CB8C004F05D0 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = C2FF87982386CB8C004F05D0 /* art.scnassets */; };
-		C2FF879B2386CB8C004F05D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FF879A2386CB8C004F05D0 /* ViewController.swift */; };
 		C2FF879E2386CB8C004F05D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2FF879C2386CB8C004F05D0 /* Main.storyboard */; };
 		C2FF87A02386CB8F004F05D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2FF879F2386CB8F004F05D0 /* Assets.xcassets */; };
 		C2FF87A32386CB8F004F05D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2FF87A12386CB8F004F05D0 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C289A75B2387244E00ACD3D0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		C2FF87932386CB8C004F05D0 /* Detection Both.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Detection Both.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2FF87962386CB8C004F05D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2FF87982386CB8C004F05D0 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		C2FF879A2386CB8C004F05D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C2FF879D2386CB8C004F05D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C2FF879F2386CB8F004F05D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2FF87A22386CB8F004F05D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,8 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				C2FF87962386CB8C004F05D0 /* AppDelegate.swift */,
+				C289A75B2387244E00ACD3D0 /* GameViewController.swift */,
 				C2FF87982386CB8C004F05D0 /* art.scnassets */,
-				C2FF879A2386CB8C004F05D0 /* ViewController.swift */,
 				C2FF879C2386CB8C004F05D0 /* Main.storyboard */,
 				C2FF879F2386CB8F004F05D0 /* Assets.xcassets */,
 				C2FF87A12386CB8F004F05D0 /* LaunchScreen.storyboard */,
@@ -139,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2FF879B2386CB8C004F05D0 /* ViewController.swift in Sources */,
+				C289A75C2387244E00ACD3D0 /* GameViewController.swift in Sources */,
 				C2FF87972386CB8C004F05D0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,7 +222,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Debug;
 		};
@@ -285,6 +285,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VAD68YH3ZG;
 				INFOPLIST_FILE = "Detection Both/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VAD68YH3ZG;
 				INFOPLIST_FILE = "Detection Both/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -324,7 +326,7 @@
 				C2FF87A62386CB8F004F05D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		C2FF87A72386CB8F004F05D0 /* Build configuration list for PBXNativeTarget "Detection Both" */ = {
 			isa = XCConfigurationList;
@@ -333,7 +335,7 @@
 				C2FF87A92386CB8F004F05D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
