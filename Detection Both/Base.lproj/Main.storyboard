@@ -38,17 +38,29 @@
                                     <action selector="minusButtonAction:" destination="BV1-FR-VrT" eventType="touchUpInside" id="xbT-LC-RQC"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZQl-XR-S4Y">
+                                <rect key="frame" x="184" y="792" width="46" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="eAC-Cj-NoT"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="resetBtnAction:" destination="BV1-FR-VrT" eventType="touchUpInside" id="ctc-KJ-fIn"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="XFJ-E2-vx8" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" constant="8" id="BR4-Lr-7w7"/>
                             <constraint firstItem="BrB-h1-WRS" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" id="GsS-dJ-CKf"/>
                             <constraint firstItem="fQZ-KI-GVf" firstAttribute="bottom" secondItem="lx9-sa-itp" secondAttribute="bottom" constant="20" id="TGn-9O-DdJ"/>
+                            <constraint firstItem="ZQl-XR-S4Y" firstAttribute="centerX" secondItem="BrB-h1-WRS" secondAttribute="centerX" id="Tvm-H9-bgg"/>
                             <constraint firstItem="BrB-h1-WRS" firstAttribute="bottom" secondItem="fQZ-KI-GVf" secondAttribute="bottom" id="VpT-BR-CcM"/>
                             <constraint firstItem="BrB-h1-WRS" firstAttribute="trailing" secondItem="fQZ-KI-GVf" secondAttribute="trailing" id="XyZ-9z-H8e"/>
                             <constraint firstItem="fQZ-KI-GVf" firstAttribute="trailing" secondItem="lx9-sa-itp" secondAttribute="trailing" constant="8" id="exw-kK-wDQ"/>
                             <constraint firstItem="fQZ-KI-GVf" firstAttribute="bottom" secondItem="XFJ-E2-vx8" secondAttribute="bottom" constant="20" id="krJ-F2-3K3"/>
                             <constraint firstItem="BrB-h1-WRS" firstAttribute="top" secondItem="U0K-SW-4ec" secondAttribute="top" id="rJc-2c-zQA"/>
+                            <constraint firstItem="fQZ-KI-GVf" firstAttribute="bottom" secondItem="ZQl-XR-S4Y" secondAttribute="bottom" constant="20" id="rZg-tZ-9Ye"/>
                             <constraint firstItem="lx9-sa-itp" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="XFJ-E2-vx8" secondAttribute="trailing" constant="8" symbolic="YES" id="uZM-I8-xD5"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fQZ-KI-GVf"/>
@@ -56,6 +68,7 @@
                     <connections>
                         <outlet property="minusButton" destination="lx9-sa-itp" id="N8w-dU-u8z"/>
                         <outlet property="myButtonPlus" destination="XFJ-E2-vx8" id="qUd-s2-7WR"/>
+                        <outlet property="resetButton" destination="ZQl-XR-S4Y" id="nSd-nv-jcV"/>
                         <outlet property="sceneView" destination="BrB-h1-WRS" id="5nT-qQ-ynl"/>
                     </connections>
                 </viewController>
